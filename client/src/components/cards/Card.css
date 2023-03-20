@@ -1,0 +1,166 @@
+.card-container{
+    position: relative;
+    margin: 20px;
+   
+    
+}
+.card-div{
+    display: flex;
+    gap: 40px;
+    scroll-behavior: smooth;
+    transition: 0.5s;
+    transform: translateX(0);
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 200px;
+    height: 350px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+
+.price{
+    color: #B12704;;
+}
+.card:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 1.5px gray;
+}
+.card img{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+
+}
+.a{
+    top: 22.5vh;
+}
+
+.backSlid{
+    transform: translateX(-100%)
+}
+
+.forwardSlid{
+    transform: translateX(100%)
+}
+
+.singleProduct{
+    top: 0%;
+    left: 20vw;
+    position: absolute;
+    height:70vh;
+    width: 60vw;
+    background-color: #f0f2f5;;
+    box-shadow: 0 0 10px 10px rgb(201, 201, 201);
+    z-index: 9;
+    display: flex;
+    border-radius: 15px;
+}
+.addsub{
+    width: 120px;
+    height: 50px ;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+.addsub:hover{
+    cursor: pointer;
+}
+.addsub input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.addsub input{
+    text-align: center;
+    font-size: x-large;
+    width: 35px;
+    height: 25px;
+    margin: 10px;
+    border: none;
+  
+}
+.addsub input:focus{
+    outline: none;
+}
+.btn:hover{
+  background-color: rgb(221, 221, 221);
+  cursor: pointer;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    font-size: xx-large;
+    width: 30px;
+    height: 100%;
+}
+.singleProduct img{
+    width: 50%;
+    height: 80%;
+    margin: 15px;
+}
+.singleProduct p{
+    font-size: 20px;
+}
+.descrip{
+    max-height: 200px;
+}
+
+.close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(209, 3, 3);
+    border-radius: 10px;
+    color: grey;
+    border: none;
+}
+.addto{
+    height: 70px;
+    width: 110px;
+    margin: 10px;
+    font-size: large;
+    font-weight: 900;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #1877f2;
+}
+.addto:hover{
+    cursor: pointer;
+    background-color: #0e71f3;
+}
+.sign{
+    color: #d4340c;
+}
+.btns{
+    width: 100px;
+    height: 80px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+.btns:hover{
+    cursor: pointer;
+    background-color: #0e71f3;
+}
+.item-added{
+    position: fixed;
+    top: 6px;
+    background-color:#12c99b;
+    width: 100px;
+    padding: 10px;
+    border-radius:8px ;
+    right: 50vw;
+    font-size: 15px;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    z-index: 99;
+}

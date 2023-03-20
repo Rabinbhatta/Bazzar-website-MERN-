@@ -1,0 +1,18 @@
+.Footer{
+    display: flex;
+    height: 35vh;
+    width: 100%;
+    background-color: #06102b;
+    color: white;
+    padding: 5vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.footer-logo{
+ max-width: 800px;
+ text-align: center;
+}
+.socialmedia:hover{
+   cursor: pointer;
+}
